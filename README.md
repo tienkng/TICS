@@ -1,2 +1,2 @@
 # TICS
-Building the model prediction for TICS symptoms
+Building model for TICS (symptoms) prediction
