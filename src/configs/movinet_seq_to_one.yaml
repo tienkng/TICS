@@ -1,0 +1,10 @@
+model_kwargs:
+  encoder:
+    pretrained_name: movinet
+    arch: movinet_a0
+    pretrained: True
+    causal: False # False: 3d; True: 2plus1d (streaming mode)
+  mode: seq_to_one
+  num_classes: 7
+  seq_len: 5 # number of frames
+  image_size: 224
