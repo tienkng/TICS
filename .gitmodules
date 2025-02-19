@@ -1,0 +1,3 @@
+[submodule "src/libs/movinet"]
+	path = src/libs/movinet
+	url = https://github.com/tienkng/movinet.git

@@ -1,0 +1,13 @@
+model_kwargs:
+  encoder:
+    pretrained_name: mobilenetv2_100
+    pretrained: True
+    freeze: 4
+  temporal:
+    lstm_hidden_size: 384
+    lstm_dropout: 0.3
+    lstm_layers: 2
+  mode: seq_to_one
+  num_classes: 7
+  seq_len: 5 # number of frames
+  image_size: 224
